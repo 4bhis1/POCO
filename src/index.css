@@ -84,9 +84,17 @@ div {
 
 .topRightContainer {
   margin: 10px 10px 10px 0;
-  height: 98vh;
+  /* height: 98vh; */
   position: relative;
   overflow-y: scroll;
+  flex:1;
+
+  background-color: var(--color-secondaryColor);
+  border-radius: 10px;
+  margin: 10px;
+  overflow: auto;
+  color: var(--color-foreground);
+  padding: 15px 30px
 }
 
 img,

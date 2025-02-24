@@ -1,29 +1,11 @@
-# Portfolio
+# PO-CO: Centralized Coding Streak Tracker  
 
-Past Portfolio live at <a href="https://4bhis1.github.io/Portfolio/">4bhis1.github.io/Portfolio/</a>
-Present Portfolio live at <a href="https://4bhis1.github.io/Portfolio2.0/">4bhis1.github.io/Portfolio2.0/</a>
+🚀 **Track your coding streaks across platforms with ease!**  
+PO-CO is your all-in-one solution for unifying, visualizing, and celebrating your coding progress. Designed for passionate developers, PO-CO ensures your streaks are always up-to-date, no matter where or how you code.
 
-# Wishlist of Portfolio
-
-- [x] Implement Particle.js
-- [ ] Add Styling in Nav
-- [ ] Landing Page
-- [ ] Landing Page Footer Styling
-- [ ] Skills 
-- [ ] Projects
-- [ ] Timeline
-- [ ] Experience
-- [ ] ContactMe
-- [ ] Send Mail through it
-- [ ] Use AnimationCSS in Projects and skills
-- [ ] WebSite Logo
-- [ ] Resume
-- [ ] WorkOn Social Media
-- [ ] Work on Leave a message
-- [ ] Mobile Responsive
-- [ ] Add animation to increase the height 
-- [ ] Work on burger Button and add functionality to it
-- [ ] Header and Projects Similar <a href="https://rajrajhans.com/about/">Click</a>
-
-
-
+## 🌟 Features  
+- **Multi-Platform Integration:** Connect to GitHub, LeetCode, CodePen, and more.  
+- **Real-Time Sync:** Keep your streaks updated automatically.  
+- **Customizable Goals:** Define your "coding day" — commits, challenges, or projects.  
+- **Insightful Analytics:** Charts, heatmaps, and leaderboards to monitor your progress.  
+- **Gamification:** Earn badges and stay motivated.  

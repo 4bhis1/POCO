@@ -1,21 +1,16 @@
 import React, { useEffect, useLayoutEffect, useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Mode from "./Components/Mode";
 import Home from "./Pages/Home";
+import UpcomingFeatures from "./Pages/UpcomingFeatures"; // Create this file if not exists
+import Suggestions from "./Pages/Suggestions"; // Create this file if not exists
 import LeftNav from "./Pages/LeftNav";
-
-const Pages = {
-  home: () => Home,
-  // "privacy-policy": PrivacyPolicy,
-  // suggestions: Suggestions,
-  // "upcoming-features": UpcomingFeatures,
-  // "contact-us": ContactUs,
-};
+import "./index.css"; // Assuming you have some styles
+import PrivacyPolicy from "./Pages/PrivacyPolicy";
 
 function App() {
   const [isDark, updateTheme] = useState(true);
-  const [navigation, updateNavigation] = useState(Pages["home"]);
 
-  // const Component = navigation;
   const toggleTheme = () => {
     updateTheme((isDark) => !isDark);
   };
@@ -31,17 +26,30 @@ function App() {
   }, [isDark]);
 
   return (
-    <>
+    <Router>
       <div className="topContainer">
         <div className="column topLeftContainer">
           <div className="column routesContainer">
             <LeftNav />
           </div>
         </div>
-        <div className="column topRightContainer">{navigation()}</div>
+        <div className="column topRightContainer">
+          <Routes>
+            {/* <Route path="/" element={<Home />} />
+            <Route path="/upcoming-features" element={<UpcomingFeatures />} />
+            <Route path="/suggestions" element={<Suggestions />} />{" "} */}
+            <Route path="/POCO/" element={<Home />} />
+            <Route
+              path="/POCO/upcoming-features"
+              element={<UpcomingFeatures />}
+            />
+            <Route path="/POCO/suggestions" element={<Suggestions />} />
+            <Route path="/POCO/privacy-policy" element={<PrivacyPolicy />} />
+          </Routes>
+        </div>
       </div>
       <Mode toggleTheme={toggleTheme} isDark={isDark} />
-    </>
+    </Router>
   );
 }
 
