@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/POCO/static/css/main.ae334b25.css",
-    "main.js": "/POCO/static/js/main.ac277ba2.js",
+    "main.css": "/POCO/static/css/main.3ee185ee.css",
+    "main.js": "/POCO/static/js/main.07b04d10.js",
     "index.html": "/POCO/index.html",
-    "main.ae334b25.css.map": "/POCO/static/css/main.ae334b25.css.map",
-    "main.ac277ba2.js.map": "/POCO/static/js/main.ac277ba2.js.map"
+    "main.3ee185ee.css.map": "/POCO/static/css/main.3ee185ee.css.map",
+    "main.07b04d10.js.map": "/POCO/static/js/main.07b04d10.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae334b25.css",
-    "static/js/main.ac277ba2.js"
+    "static/css/main.3ee185ee.css",
+    "static/js/main.07b04d10.js"
   ]
 }
