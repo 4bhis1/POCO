@@ -24,7 +24,7 @@ function Home() {
             your activity seamlessly across platforms and never miss a day.
           </p>
           <a
-            href="https://your-extension-url.com" // Replace with the actual extension URL
+            href="https://chromewebstore.google.com/detail/poco/fmiphdkhhilagfhpjjdfnnjgggigmhak" // Replace with the actual extension URL
             target="_blank"
             rel="noopener noreferrer"
             className="extension-button"
