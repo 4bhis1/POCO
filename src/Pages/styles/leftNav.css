@@ -71,3 +71,39 @@
 .socialIconStyle {
   font-size: 32px;
 }
+
+/* Mobile-friendly styles */
+@media (max-width: 768px) {
+  .lists {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-secondaryColor);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 10px;
+    z-index: 1000;
+    border-top: 1px solid var(--color-foreground);
+  }
+
+  .list {
+    /* flex: 1; */
+    text-align: center;
+  }
+
+  .text {
+    padding: 0;
+    font-size: 14px;
+    text-decoration: none;
+
+  }
+
+  .activeText {
+    color: rgb(95, 105, 160);
+    font-weight: bold;
+    text-decoration: none;
+  }
+}

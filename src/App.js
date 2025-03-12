@@ -6,7 +6,6 @@ import UpcomingFeatures from "./Pages/UpcomingFeatures"; // Create this file if 
 import Suggestions from "./Pages/Suggestions"; // Create this file if not exists
 import LeftNav from "./Pages/LeftNav";
 import "./index.css"; // Assuming you have some styles
-import PrivacyPolicy from "./Pages/PrivacyPolicy";
 
 function App() {
   const [isDark, updateTheme] = useState(true);
@@ -35,16 +34,12 @@ function App() {
         </div>
         <div className="column topRightContainer">
           <Routes>
-            {/* <Route path="/" element={<Home />} />
-            <Route path="/upcoming-features" element={<UpcomingFeatures />} />
-            <Route path="/suggestions" element={<Suggestions />} />{" "} */}
             <Route path="/POCO/" element={<Home />} />
             <Route
               path="/POCO/upcoming-features"
               element={<UpcomingFeatures />}
             />
             <Route path="/POCO/suggestions" element={<Suggestions />} />
-            <Route path="/POCO/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
         </div>
       </div>

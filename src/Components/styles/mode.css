@@ -18,3 +18,9 @@
   transition: transform 0.5s, font-size 0.5s;
   transform: rotate(180deg);
 }
+
+@media screen and (max-width: 768px) {
+  .modeContainer {
+    display: none;
+  }
+}
