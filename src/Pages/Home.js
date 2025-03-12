@@ -24,7 +24,7 @@ function Home() {
             your activity seamlessly across platforms and never miss a day.
           </p>
           <a
-            href="https://chromewebstore.google.com/detail/POCO/fmiphdkhhilagfhpjjdfnnjgggigmhak" 
+            href="https://chromewebstore.google.com/detail/poco/fmiphdkhhilagfhpjjdfnnjgggigmhak"
             target="_blank"
             rel="noopener noreferrer"
             className="extension-button"
